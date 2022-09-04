@@ -10,11 +10,18 @@ export const Container = styled.header`
     input {
         width: 40rem;
         height: 2.75rem;
+
         margin-left: 2rem;
+        padding: 0.25rem;
+
         border: none;
         border: 3px solid var(--search-bar);
         border-radius: 0.50rem;
-        padding: 0.25rem;
+        
+        text-align: left;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: 900;
+        font-size: 1rem;
     }
 
     input::placeholder {
@@ -22,7 +29,7 @@ export const Container = styled.header`
     }
 
     img[alt="logo"] {
-        width: 15rem;
+        max-width: 15rem;
         margin: 0rem 10rem;
     }
 

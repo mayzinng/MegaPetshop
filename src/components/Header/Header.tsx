@@ -9,7 +9,7 @@ export function Header() {
         <Container>
             <img src={logoImg} alt="logo"/>
 
-            <input type="text" placeholder="o que sue pet precisa?"></input>
+            <input type="text" placeholder="o que seu pet precisa?"></input>
 
             <div>
                 <a href="#">LOGIN</a>

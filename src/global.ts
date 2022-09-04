@@ -8,13 +8,14 @@ export const Container = createGlobalStyle`
         --text-header: #EE7156;
         --search-bar: #E04E2F;
         --bg-menu-bar: #6C0DB7;
+        --bg-banner: #C29EDF;
     }
 
     body {
         background: var(--background);
         margin: 0;
         padding: 0;
-        font-family: 'Varela Round', sans-serif;;
+        font-family: 'Varela Round', sans-serif;
     }
 
     html {
