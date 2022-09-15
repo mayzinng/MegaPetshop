@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-   /* background-color: red;
-   display: block; */
-
+   justify-content: center;
+   align-items: center;
+   display: flex;
 `
 
 export const Content = styled.section`
@@ -12,7 +12,6 @@ export const Content = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 3rem 1rem 2rem 2rem;
-    float: right;
     width: 80rem;
 
     
@@ -22,9 +21,10 @@ export const Content = styled.section`
         display: grid;
         justify-content: center;
         align-items: center;
-        background: #fff;
+        background: #F3F3F3;
         border-radius: 0.50rem;
         padding: 1.5rem;
+        margin-top: 2rem;
 
         img {
            margin: 0 auto;
@@ -33,22 +33,13 @@ export const Content = styled.section`
         h3 {
            text-align: center;
            font-size: 1rem;
+           color: var(--price-text);
 
            strong {
               font-size: 1.5rem;
+              color: #FF2D00;
            }
         }
     }
 `
 
-export const ListFilter = styled.form`
-    background: #E0C4C4;
-    position: absolute;
-    display: flex;
-    width: 27.125rem;
-    /* box-shadow: 0.15rem -0.25rem 2rem 0.01rem; */
-    border-radius: 0.5rem;
-    margin: 3rem 0 2rem 2rem;
-    height: 46.125rem;
-
-`
