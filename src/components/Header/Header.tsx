@@ -1,20 +1,27 @@
 import { Container } from "./styles";
 import logoImg from "../../assets/logo.svg"
 import loginImg from "../../assets/login.svg"
+import { Link } from "react-router-dom";
 
 
 
 export function Header() {
+
     return(
         <Container>
-            <img src={logoImg} alt="logo"/>
+            <div className="header-principal">
+                <img src={logoImg} alt="logo"/>
 
-            <input type="text" placeholder="o que seu pet precisa?"></input>
+                    <input type="text" placeholder="o que seu pet precisa?"></input>
 
-            <div>
-                <a href="#">LOGIN</a>
-                <img src={loginImg} alt="login"/>
+                    <div>
+                        <Link to="/login">LOGIN</Link>
+                        <img src={loginImg} alt="login"/>
+                    </div>
+
+                    
             </div>
+          
         </Container>
     );
 }

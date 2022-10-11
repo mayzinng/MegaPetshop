@@ -41,5 +41,9 @@ export const Content = styled.section`
            }
         }
     }
+
+    div:hover {
+      cursor: pointer;
+    }
 `
 

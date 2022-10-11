@@ -7,6 +7,11 @@ export const Container = styled.header`
     height: 7.68rem;
     align-items: center;
 
+    .header-principal {
+       width: 80vw;
+       margin: 0 0rem 0 22rem;
+    }
+
     input {
         width: 40rem;
         height: 2.75rem;
@@ -30,7 +35,6 @@ export const Container = styled.header`
 
     img[alt="logo"] {
         max-width: 15rem;
-        margin: 0rem 10rem;
     }
 
     div {
@@ -50,4 +54,5 @@ export const Container = styled.header`
             filter: brightness(0.7);
         }
     }
+
 `

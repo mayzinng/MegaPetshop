@@ -12,6 +12,9 @@ export const Container = styled.section`
         background: var(--modals);
         padding: 2rem;
         border-radius: 0.5rem;
+        transition: all 0.2s;
+        width: 20rem;
+        position: relative;
 
         img {
             width: 90px;
@@ -23,5 +26,11 @@ export const Container = styled.section`
             font-weight: bold;
             font-size: 1.2rem;
         }
+    }
+
+    div:hover {
+        width: 22rem;
+        position: static;
+        background-color: #b47aff;
     }
 `
